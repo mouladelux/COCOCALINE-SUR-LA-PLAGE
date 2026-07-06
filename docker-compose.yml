@@ -1,0 +1,17 @@
+services:
+  neo4j:
+    image: neo4j:5.15-community
+    container_name: musicgraph_db
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/musicgraph_pass
+    volumes:
+      - ./data:/data
+    networks:
+      - music_net
+
+networks:
+  music_net:
+    driver: bridge

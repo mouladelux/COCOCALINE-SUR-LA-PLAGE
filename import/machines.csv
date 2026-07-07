@@ -1,0 +1,11 @@
+nom,type,criticite
+PC-ALICE,Poste utilisateur,Faible
+PC-BOB,Poste developpeur,Moyenne
+SRV-WEB,Serveur web,Moyenne
+SRV-DB,Serveur base de donnees,Elevee
+DC-01,Contreleur de domaine,Critique
+NAS-BACKUP,Serveur de sauvegarde,Critique
+PC-TOM,Poste securite,Moyenne
+FW-01,Firewall,Critique
+PC-PAUL,Poste externe,Faible
+SRV-VPN,Serveur VPN,Critique

@@ -1,0 +1,7 @@
+nom,sensibilite
+Base clients,elevee
+Donnees RH,elevee
+Active Directory,critique
+Sauvegardes,critique
+Secrets applicatifs,critique
+Code source,elevee
